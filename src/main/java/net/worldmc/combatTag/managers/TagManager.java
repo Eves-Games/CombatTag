@@ -36,6 +36,7 @@ public class TagManager {
             @Override
             public void run() {
                 removeTag(player);
+                morpheusAPI.sendPlayerActionBar(player, configManager.getUntagMessage());
             }
         };
 
@@ -49,7 +50,6 @@ public class TagManager {
         if (task != null) {
             task.cancel();
         }
-        morpheusAPI.sendPlayerActionBar(player, configManager.getUntagMessage());
     }
 
     public boolean isTagged(Player player) {
