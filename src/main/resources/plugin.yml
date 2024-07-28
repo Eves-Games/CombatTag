@@ -2,3 +2,5 @@ name: CombatTag
 version: '1.0'
 main: net.worldmc.combatTag.CombatTag
 api-version: '1.21'
+authors: [Ezekiel Pari]
+depend: [Morpheus]
