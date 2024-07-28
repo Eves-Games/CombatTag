@@ -1,0 +1,11 @@
+tag-duration: 30
+tag-message: "<red>You have been combat tagged!"
+untag-message: "You are no longer combat tagged."
+blocked-message: "<red>You cannot use this command while combat tagged!"
+blocked-commands:
+  - "teleport"
+  - "tp"
+  - "tpa"
+  - "tpaccept"
+  - "t spawn"
+  - "n spawn"
